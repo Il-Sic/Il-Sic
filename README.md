@@ -29,7 +29,7 @@ Da oltre due anni in Accenture sviluppo integrazioni a eventi in Java per un pro
 - **[Rapporto Pronto](case-studies/rapporto-pronto.md)** è un SaaS B2B in sviluppo, non ancora in produzione. Trasforma le note vocali dei tecnici sul campo in rapportini che l’ufficio può verificare. L’ho progettato e sviluppato da solo in TypeScript, con Next.js, React e Node.js. I dati stanno in PostgreSQL, con ogni azienda isolata nel database (Row Level Security). Deepgram trascrive i vocali e un modello OpenAI scrive la bozza. Il codice è privato: lo mostro volentieri in call.
 - **[Argonauta](case-studies/argonauta.md)** è la mia app iOS in Swift e SwiftUI per esplorare il territorio a piedi. Chi cammina può seguire una rotta, raccogliere schede su ciò che incontra e ritrovare le proprie scoperte nel Diario. L’app è attualmente in fase di test su iPhone e iPad.
 - **Cirullone** è un videogioco di carte che sto sviluppando in Unity e C#, ispirato alla tradizione italiana dei giochi di carte.
-- **[Il sito di Sic Studio](https://github.com/Il-Sic/sicstudio-sito)** è il codice di [sicstudio.app](https://sicstudio.app/): HTML e CSS scritti a mano, in italiano e in inglese. Gli script Python generano le parti ripetute delle pagine e GitHub Actions controlla il sito a ogni pull request.
+- **[sicstudio.app](https://sicstudio.app/)** è il mio sito: HTML e CSS scritti a mano, in italiano e in inglese, senza JavaScript. Gli script Python generano le parti ripetute delle pagine e GitHub Actions controlla e pubblica il sito.
 
 Sic Studio è il marchio personale con cui sviluppo app e videogiochi.
 

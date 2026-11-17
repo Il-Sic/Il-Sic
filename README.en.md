@@ -2,18 +2,37 @@
 
 [Italiano](README.md) · English
 
-I’m a software engineer based in Calabria, Italy. I’ve spent over two years at Accenture building Java backends for an international insurance programme. I’m open to remote freelance work on Java backends and full-stack Java/React products.
+**Java backend developer, full stack with React and TypeScript**, based in Calabria, Italy. I’m open to remote freelance work.
+
+I’ve spent over two years at Accenture building event-driven Java integrations for an international insurance programme. Outside work I build my own products, from the database to the interface.
 
 ## Professional experience
 
-At Accenture, I build Spring Boot services in Java 11 and 17. I work on REST and SOAP integrations, route messages with Apache Camel and Kafka, and manage PostgreSQL schema changes with Liquibase. I use Azure DevOps pipelines to deliver changes to Kubernetes.
+**Accenture, since 2024.** Integration team on a multi-country programme for a leading international insurance group: 6 countries and more than 200 people from several companies.
 
-## Personal projects
+- I build Apache Camel routes and processors on Kafka in Java 17. They turn policy, claims and accounting events into emails, text messages and letters, for 3 countries in parallel.
+- I’ve written more than 150 SQL scripts for PostgreSQL: new tables, views and schema changes, released with Liquibase and Azure DevOps pipelines.
+- I’ve worked on more than 60 tickets and completed more than 100 pull requests, from analysis to release. I write tests with JUnit 5 and Mockito and configure deployments with Helm on Kubernetes.
+- I’ve also worked with Spring Boot, REST and SOAP services and Docker.
 
-- [Rapporto Pronto](case-studies/rapporto-pronto.en.md) is a B2B app in development. A field technician can dictate a service note, review the resulting draft report and correct it. I build the frontend with React, TypeScript and Next.js. On the backend, I use Node.js to process notes in the background and PostgreSQL to store the reports.
-- [Argonauta](case-studies/argonauta.en.md) is my SwiftUI app for exploring on foot. Walkers can follow a route, collect cards about what they discover and revisit the walk in a journal. The app is currently undergoing testing on iPhone and iPad.
-- Cirullone is a card game I’m developing in Unity and C#, inspired by Italian card traditions.
+## Stack
+
+- **Backend:** Java 17, 11 and 8 · Spring Boot · Apache Camel · Kafka · REST · SOAP
+- **Data:** PostgreSQL · SQL · JDBC · Liquibase
+- **Web:** TypeScript · React · Next.js · Node.js
+- **Delivery and testing:** Docker · Kubernetes · Helm · Azure DevOps · GitHub Actions · JUnit 5 · Mockito · Vitest · Playwright
+- **Mobile and games:** Swift · SwiftUI · Unity · C#
+- **AI for development:** Claude Code · GitHub Copilot · Codex. I review and test every change.
+
+## Products and projects
+
+- **[Rapporto Pronto](case-studies/rapporto-pronto.en.md)** is a B2B SaaS in development, not yet in production. It turns field technicians’ voice notes into service reports the office can check. I designed and built it on my own in TypeScript, with Next.js, React and Node.js. Data lives in PostgreSQL, with each company isolated in the database (Row Level Security). Deepgram transcribes the voice notes and an OpenAI model writes the draft. The code is private: I’m happy to walk through it on a call.
+- **[Argonauta](case-studies/argonauta.en.md)** is my iOS app in Swift and SwiftUI for exploring on foot. Walkers can follow a route, collect cards about what they discover and revisit the walk in a journal. The app is currently undergoing testing on iPhone and iPad.
+- **Cirullone** is a card game I’m developing in Unity and C#, inspired by Italian card traditions.
+- **[The Sic Studio website](https://github.com/Il-Sic/sicstudio-sito)** is the code behind [sicstudio.app](https://sicstudio.app/en/): hand-written HTML and CSS, in Italian and English. Python scripts generate the repeated parts of the pages and GitHub Actions checks the site on every pull request.
 
 Sic Studio is my independent label for apps and games.
 
-[LinkedIn](https://www.linkedin.com/in/vincenzo-siciliano-dev/) · [Sic Studio](https://sicstudio.app/)
+## Contact
+
+[vincenzo@sicstudio.app](mailto:vincenzo@sicstudio.app) · [LinkedIn](https://www.linkedin.com/in/vincenzo-siciliano-dev/) · [sicstudio.app](https://sicstudio.app/en/)

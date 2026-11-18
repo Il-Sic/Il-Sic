@@ -26,6 +26,7 @@ I’ve spent over two years at Accenture building event-driven Java integrations
 
 ## Products and projects
 
+- **[Agenda Ambulatorio](https://github.com/Il-Sic/agenda-ambulatorio)** is a full-stack demo project for booking visits at an outpatient clinic, built with Java 25, Spring Boot, PostgreSQL, Kafka, React and TypeScript. The same slot cannot be booked twice: a database constraint guarantees it and a concurrency test proves it. The code is public and starts with one command.
 - **[Rapporto Pronto](case-studies/rapporto-pronto.en.md)** is a B2B SaaS in development, not yet in production. It turns field technicians’ voice notes into service reports the office can check. I designed and built it on my own in TypeScript, with Next.js, React and Node.js. Data lives in PostgreSQL, with each company isolated in the database (Row Level Security). Deepgram transcribes the voice notes and an OpenAI model writes the draft. The code is private: I’m happy to walk through it on a call.
 - **[Argonauta](case-studies/argonauta.en.md)** is my iOS app in Swift and SwiftUI for exploring on foot. Walkers can follow a route, collect cards about what they discover and revisit the walk in a journal. The app is currently undergoing testing on iPhone and iPad.
 - **Cirullone** is a card game I’m developing in Unity and C#, inspired by Italian card traditions.

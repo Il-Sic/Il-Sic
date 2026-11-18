@@ -26,6 +26,7 @@ Da oltre due anni in Accenture sviluppo integrazioni a eventi in Java per un pro
 
 ## Prodotti e progetti
 
+- **[Agenda Ambulatorio](https://github.com/Il-Sic/agenda-ambulatorio)** è un progetto dimostrativo full stack per prenotare le visite di un poliambulatorio, con Java 25, Spring Boot, PostgreSQL, Kafka, React e TypeScript. Lo stesso orario non può essere prenotato due volte: lo garantisce un vincolo del database e lo dimostra un test di concorrenza. Il codice è pubblico e si avvia con un comando.
 - **[Rapporto Pronto](case-studies/rapporto-pronto.md)** è un SaaS B2B in sviluppo, non ancora in produzione. Trasforma le note vocali dei tecnici sul campo in rapportini che l’ufficio può verificare. L’ho progettato e sviluppato da solo in TypeScript, con Next.js, React e Node.js. I dati stanno in PostgreSQL, con ogni azienda isolata nel database (Row Level Security). Deepgram trascrive i vocali e un modello OpenAI scrive la bozza. Il codice è privato: lo mostro volentieri in call.
 - **[Argonauta](case-studies/argonauta.md)** è la mia app iOS in Swift e SwiftUI per esplorare il territorio a piedi. Chi cammina può seguire una rotta, raccogliere schede su ciò che incontra e ritrovare le proprie scoperte nel Diario. L’app è attualmente in fase di test su iPhone e iPad.
 - **Cirullone** è un videogioco di carte che sto sviluppando in Unity e C#, ispirato alla tradizione italiana dei giochi di carte.

@@ -26,11 +26,10 @@ Nel primo prototipo l’interpretazione del testo era simulata. Nella versione a
 - **Accessi su invito.** Si entra con un invito monouso, gestito con Better Auth.
 - **Lavori lunghi in coda.** La trascrizione e la scrittura della bozza passano da una coda pg-boss, con un worker separato dall’applicazione web.
 - **PDF.** I rapportini in PDF sono generati con pdfkit.
-
-<img src="img/rapporto-pronto/rapportino-pdf.png" alt="Il rapportino in PDF: azienda, cliente, data, durata, attività svolta, esito, materiale e prossima azione, con la firma del cliente e data e ora di conferma, firma e approvazione. In alto una riga avverte che i valori vengono dalla modalità simulata." width="560">
-
 - **Test e controlli.** Scrivo i test con Vitest e Playwright e li faccio girare su GitHub Actions. La modalità simulata permette di provarli senza chiamare i servizi esterni.
 - **Rilascio.** L’ambiente Docker è già preparato, con backup cifrati e monitoraggio degli errori, ma non è ancora attivo.
+
+<img src="img/rapporto-pronto/rapportino-pdf.png" alt="Il rapportino in PDF: azienda, cliente, data, durata, attività svolta, esito, materiale e prossima azione, con la firma del cliente e data e ora di conferma, firma e approvazione. In alto una riga avverte che i valori vengono dalla modalità simulata." width="560">
 
 ## Stato del progetto
 

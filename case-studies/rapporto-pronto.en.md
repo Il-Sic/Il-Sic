@@ -26,11 +26,10 @@ The first prototype simulated text interpretation. In the current version, I’v
 - **Invite-only access.** People join with a single-use invite, handled by Better Auth.
 - **Long jobs in a queue.** Transcription and drafting go through a pg-boss queue, with a worker separate from the web application.
 - **PDF.** PDF reports are generated with pdfkit.
-
-<img src="img/rapporto-pronto/rapportino-pdf.png" alt="The PDF service report: company, customer, date, duration, work done, outcome, part and next step, with the customer’s signature and the date and time it was confirmed, signed and approved. A line at the top notes that the values come from simulated mode." width="560">
-
 - **Tests and checks.** I write tests with Vitest and Playwright and run them on GitHub Actions. Simulated mode lets them run without calling the external services.
 - **Deployment.** The Docker environment is already prepared, with encrypted backups and error monitoring, but it is not live yet.
+
+<img src="img/rapporto-pronto/rapportino-pdf.png" alt="The PDF service report: company, customer, date, duration, work done, outcome, part and next step, with the customer’s signature and the date and time it was confirmed, signed and approved. A line at the top notes that the values come from simulated mode." width="560">
 
 ## Project status
 

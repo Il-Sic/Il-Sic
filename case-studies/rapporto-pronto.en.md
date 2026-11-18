@@ -6,6 +6,8 @@ I’m building Rapporto Pronto for field technicians who document maintenance vi
 
 <img src="img/rapporto-pronto/nota-dal-telefono.png" alt="A technician’s phone while recording a voice note for a new job, with buttons to pause, delete or send it. Below are an earlier note and the summary the app drafted from it." width="320">
 
+<img src="img/rapporto-pronto/nota-dal-computer.png" alt="The same screen in a computer browser: a technician records a voice note for a new job, with buttons to pause, delete or send it. Below are an earlier note, the summary the app drafted from it and the resulting report, marked for review." width="820">
+
 ## From a note to a reviewed report
 
 A technician can dictate or type a note. For a recording, they can read the transcript during review and replay the passage behind a detail in the report. If a part name looks wrong, they can check what they said, correct the draft and confirm the report.

@@ -6,6 +6,8 @@ Sto sviluppando Rapporto Pronto per i tecnici che devono documentare gli interve
 
 <img src="img/rapporto-pronto/nota-dal-telefono.png" alt="Telefono di un tecnico durante la registrazione di una nota vocale per un nuovo intervento, con i pulsanti per metterla in pausa, eliminarla o inviarla. Sotto ci sono una nota precedente e il riepilogo che l’app ne ha ricavato." width="320">
 
+<img src="img/rapporto-pronto/nota-dal-computer.png" alt="La stessa schermata nel browser di un computer: un tecnico registra una nota vocale per un nuovo intervento, con i pulsanti per metterla in pausa, eliminarla o inviarla. Sotto ci sono una nota precedente, il riepilogo che l’app ne ha ricavato e il rapportino creato, da rivedere." width="820">
+
 ## Dalla nota al rapportino
 
 Il tecnico può dettare o scrivere una nota. Se parte da una registrazione, durante la revisione può leggere la trascrizione e riascoltare il passaggio a cui si riferisce un dato. Se il nome di un ricambio sembra sbagliato, può tornare alle proprie parole, correggere la bozza e confermare il rapportino.

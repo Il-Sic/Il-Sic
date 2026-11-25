@@ -31,6 +31,9 @@ I’ve spent over two years at Accenture building event-driven Java integrations
   <a href="https://github.com/Il-Sic/agenda-ambulatorio"><img src="https://raw.githubusercontent.com/Il-Sic/agenda-ambulatorio/main/docs/percorso.gif" alt="Agenda Ambulatorio in fifteen seconds: choose the specialty, the doctor and the time, and the ticket prints with its code" width="640"></a>
 
 - **[Rapporto Pronto](case-studies/rapporto-pronto.en.md)** is a B2B SaaS in development, not yet in production. It turns field technicians’ voice notes into service reports the office can check. I designed and built it on my own in TypeScript, with Next.js, React and Node.js. Data lives in PostgreSQL, with each company isolated in the database (Row Level Security). Deepgram transcribes the voice notes and an OpenAI model writes the draft. The code is private: I’m happy to walk through it on a call.
+
+  <a href="case-studies/rapporto-pronto.en.md"><img src="https://raw.githubusercontent.com/Il-Sic/Il-Sic/main/case-studies/img/rapporto-pronto/nota-dal-computer.png" alt="Rapporto Pronto in the browser: a technician records a voice note and below are the transcript, the summary the app drafted from it and the report marked for review" width="640"></a>
+
 - **[Argonauta](case-studies/argonauta.en.md)** is my iOS app in Swift and SwiftUI for exploring on foot. Walkers can follow a route, collect cards about what they discover and revisit the walk in a journal. The app is currently undergoing testing on iPhone and iPad.
 - **Cirullone** is a card game I’m developing in Unity and C#, inspired by Italian card traditions.
 - **[sicstudio.app](https://sicstudio.app/en/)** is my website, in Italian and English: HTML and CSS with no framework and no JavaScript. Python scripts generate the repeated parts of the pages and GitHub Actions checks and publishes the site.

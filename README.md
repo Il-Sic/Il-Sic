@@ -31,6 +31,9 @@ Da oltre due anni in Accenture sviluppo integrazioni a eventi in Java per un pro
   <a href="https://github.com/Il-Sic/agenda-ambulatorio"><img src="https://raw.githubusercontent.com/Il-Sic/agenda-ambulatorio/main/docs/percorso.gif" alt="Agenda Ambulatorio in quindici secondi: si sceglie la specialità, il medico e l’ora, e il tagliando esce con il codice" width="640"></a>
 
 - **[Rapporto Pronto](case-studies/rapporto-pronto.md)** è un SaaS B2B in sviluppo, non ancora in produzione. Trasforma le note vocali dei tecnici sul campo in rapportini che l’ufficio può verificare. L’ho progettato e sviluppato da solo in TypeScript, con Next.js, React e Node.js. I dati stanno in PostgreSQL, con ogni azienda isolata nel database (Row Level Security). Deepgram trascrive i vocali e un modello OpenAI scrive la bozza. Il codice è privato: lo mostro volentieri in call.
+
+  <a href="case-studies/rapporto-pronto.md"><img src="https://raw.githubusercontent.com/Il-Sic/Il-Sic/main/case-studies/img/rapporto-pronto/nota-dal-computer.png" alt="Rapporto Pronto nel browser: un tecnico registra una nota vocale e sotto compaiono la trascrizione, il riepilogo ricavato dall’app e il rapportino da rivedere" width="640"></a>
+
 - **[Argonauta](case-studies/argonauta.md)** è la mia app iOS in Swift e SwiftUI per esplorare il territorio a piedi. Chi cammina può seguire una rotta, raccogliere schede su ciò che incontra e ritrovare le proprie scoperte nel Diario. L’app è attualmente in fase di test su iPhone e iPad.
 - **Cirullone** è un videogioco di carte che sto sviluppando in Unity e C#, ispirato alla tradizione italiana dei giochi di carte.
 - **[sicstudio.app](https://sicstudio.app/)** è il mio sito, in italiano e in inglese: HTML e CSS senza framework né JavaScript. Gli script Python generano le parti ripetute delle pagine e GitHub Actions controlla e pubblica il sito.

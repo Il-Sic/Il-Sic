@@ -32,7 +32,7 @@ Da oltre due anni in Accenture sviluppo integrazioni a eventi in Java per un pro
 
 - **[Rapporto Pronto](case-studies/rapporto-pronto.md)** è un SaaS B2B in sviluppo, non ancora in produzione. Trasforma le note vocali dei tecnici sul campo in rapportini che l’ufficio può verificare. L’ho progettato e sviluppato da solo in TypeScript, con Next.js, React e Node.js. I dati stanno in PostgreSQL, con ogni azienda isolata nel database (Row Level Security). Deepgram trascrive i vocali e un modello OpenAI scrive la bozza. Il codice è privato: lo mostro volentieri in call.
 
-  <a href="case-studies/rapporto-pronto.md"><img src="https://raw.githubusercontent.com/Il-Sic/Il-Sic/main/case-studies/img/rapporto-pronto/nota-dal-computer.png" alt="Rapporto Pronto nel browser: un tecnico registra una nota vocale e sotto compaiono la trascrizione, il riepilogo ricavato dall’app e il rapportino da rivedere" width="640"></a>
+  <a href="case-studies/rapporto-pronto.md"><img src="https://raw.githubusercontent.com/Il-Sic/Il-Sic/main/case-studies/img/rapporto-pronto/percorso.gif" alt="Rapporto Pronto in poco più di venti secondi: il tecnico detta il lavoro, l’app compila il rapportino e chiede com’è finito, il tecnico risponde e il cliente firma con il dito sul telefono" width="300"></a>
 
 - **[Argonauta](case-studies/argonauta.md)** è la mia app iOS in Swift e SwiftUI per esplorare il territorio a piedi. Chi cammina può seguire una rotta, raccogliere schede su ciò che incontra e ritrovare le proprie scoperte nel Diario. L’app è attualmente in fase di test su iPhone e iPad.
 - **Cirullone** è un videogioco di carte che sto sviluppando in Unity e C#, ispirato alla tradizione italiana dei giochi di carte.
